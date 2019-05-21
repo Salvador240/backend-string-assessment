@@ -24,7 +24,11 @@
 # So donuts(5) returns 'Number of donuts: 5'
 # and donuts(23) returns 'Number of donuts: many'
 def donuts(count):
-    """Your code goes here.  Edit this docstring."""
+    
+    if count < 10:
+        print ("Number of donuts: ", count)
+    else:
+        print ("Number of donuts: many")    
     return
 
 
